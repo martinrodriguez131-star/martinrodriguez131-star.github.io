@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacidad de ¡Al Pozo!</title>
+<style>
+  :root {
+    --bg: #f4f7fb;
+    --surface: #ffffff;
+    --border: #dde5f0;
+    --text: #10192b;
+    --text-muted: #55637a;
+    --accent: #0a7fd1;
+    --accent-soft: #e6f2fb;
+    --amber: #a8660a;
+    --wordmark-a: #0a7fd1;
+    --wordmark-b: #1fb6ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a1224;
+      --surface: #101c33;
+      --border: #223252;
+      --text: #eaf7ff;
+      --text-muted: #93a6c4;
+      --accent: #1fb6ff;
+      --accent-soft: rgba(31,182,255,0.12);
+      --amber: #ffb020;
+      --wordmark-a: #1fb6ff;
+      --wordmark-b: #9fe0ff;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+  }
+  .wordmark {
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, var(--wordmark-a), var(--wordmark-b));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0 0 0.75rem;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.4rem;
+    text-wrap: balance;
+  }
+  .updated {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0 0 2.5rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2rem clamp(1.25rem, 4vw, 2.5rem);
+  }
+  h2 {
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    margin: 2.2rem 0 0.75rem;
+  }
+  h2:first-child { margin-top: 0; }
+  p { margin: 0 0 1rem; color: var(--text); }
+  p.muted { color: var(--text-muted); font-size: 0.92rem; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  a:hover { opacity: 0.8; }
+  ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+  li { margin-bottom: 0.5rem; }
+  .callout {
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    margin-top: 2.5rem;
+  }
+  .contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 600;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <p class="wordmark">¡Al Pozo!</p>
+  <h1>Política de Privacidad</h1>
+  <p class="updated">Última actualización: 19 de agosto de 2026</p>
+
+  <div class="card">
+    <h2>Qué es esta app</h2>
+    <p>¡Al Pozo! es un juego de trivia para jugar en grupo o en solitario en un mismo dispositivo Android, desarrollado y publicado de forma independiente. Esta página explica qué información se recolecta al usar la app y con qué fin.</p>
+
+    <h2>Datos que la app no recolecta</h2>
+    <p>¡Al Pozo! no requiere crear una cuenta ni iniciar sesión. Los nombres de jugadores que se escriben en la pantalla de configuración quedan únicamente en la memoria del dispositivo mientras dura la partida: la app no tiene servidor propio, así que esos nombres nunca se transmiten a ningún lado. El progreso del juego y los puntajes tampoco se guardan ni se comparten entre partidas.</p>
+
+    <h2>Publicidad (Google AdMob)</h2>
+    <p>La app muestra anuncios a través de Google AdMob para poder ofrecerse de forma gratuita. Para eso, el SDK de Google puede recolectar identificadores de publicidad y otros datos técnicos del dispositivo, que se usan para mostrar y medir anuncios.</p>
+    <p>Antes de mostrar anuncios personalizados, la app pide consentimiento a través del sistema de Google (User Messaging Platform), donde se puede optar por anuncios no personalizados. Este procesamiento de datos está sujeto a la política de privacidad de Google:</p>
+    <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+
+    <h2>Menores de edad</h2>
+    <p>¡Al Pozo! no está dirigida a niños menores de 13 años y no recolecta a sabiendas información de menores de edad.</p>
+
+    <h2>Cambios a esta política</h2>
+    <p>Esta política puede actualizarse si cambia el funcionamiento de la app, por ejemplo al agregar nuevas funciones. La fecha de la última actualización figura arriba de esta página.</p>
+
+    <h2>Contacto</h2>
+    <p>Para consultas sobre esta política de privacidad, escribir a:</p>
+    <p class="contact">✉️ martinrodriguez131@gmail.com</p>
+  </div>
+
+  <div class="callout">
+    Este texto es una política de privacidad básica, pensada para una app personal desarrollada por una sola persona. No sustituye asesoría legal profesional.
+  </div>
+
+  <footer>¡Al Pozo! — juego de trivia independiente</footer>
+</div>
+</body>
+</html>
